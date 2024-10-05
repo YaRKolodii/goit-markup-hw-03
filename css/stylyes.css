@@ -80,13 +80,16 @@ margin-right: 76px;
 }
 .logo .accent {
 color: #2E2F42;
-
 }
+
 .nav-menu {
 font-weight: 500;
 display: flex;
 margin-right: 332px;
 gap: 40px;
+}
+
+.link-list{
 padding-top: 24px;
 padding-bottom: 24px;
 }
@@ -94,6 +97,8 @@ padding-bottom: 24px;
 .nav-menu .link {
 color: #2E2F42;
 text-decoration: none;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .nav-menu .link:hover,
 .nav-menu .link:focus {
@@ -172,14 +177,16 @@ background-color: #404BBF;
 
 /*Advantages*/
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container .list-advantages {
